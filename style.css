@@ -1,0 +1,108 @@
+/* Estilo general */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: linear-gradient(180deg, #b3e5fc 0%, #81d4fa 100%);
+  color: #003366;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Contenedor */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  padding: 20px;
+}
+
+/* Logo */
+.logo {
+  width: 200px;
+  max-width: 70%;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+/* Encabezado */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #002244;
+}
+
+/* Texto principal */
+.info p {
+  font-size: 20px;
+  max-width: 700px;
+  line-height: 1.6;
+  color: #001a33;
+}
+
+/* Contacto */
+.contacto p {
+  font-size: 22px;
+  margin: 5px 0;
+}
+
+.contacto a {
+  color: #002d62;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contacto a:hover {
+  text-decoration: underline;
+}
+
+/* QR */
+.qr {
+  margin: 30px 0;
+}
+
+.qr img {
+  width: 220px;
+  border: 3px solid #003366;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.qr p {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #002244;
+}
+
+/* Botón */
+.btn {
+  background-color: #003366;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 15px 25px;
+  border-radius: 10px;
+  border: 2px solid black;
+  transition: background 0.3s ease, color 0.3s ease;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #001a33;
+  color: #ffcc00;
+}
+
+/* Footer */
+footer {
+  font-size: 14px;
+  padding: 10px;
+  color: #333;
+  background: rgba(255, 255, 255, 0.6);
+}
